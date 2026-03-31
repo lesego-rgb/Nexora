@@ -13,11 +13,12 @@
         android:textStyle="bold"
         android:layout_marginBottom="20dp" />
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter time of day" />
+        android:hint="Enter time of day"
+        android:completionThreshold="1" />
 
     <Button
         android:id="@+id/btnCheck"
